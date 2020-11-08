@@ -1,4 +1,4 @@
 arch:
   arm64
 script:
-  - ./build
+  - ./build.sh
