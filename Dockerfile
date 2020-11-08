@@ -71,8 +71,6 @@ RUN \
 
 RUN \
  echo "**** generate build output skeleton ****" && \
- mknod -m 622 /initrd/dev/console c 5 1 && \
- mknod -m 622 /initrd/dev/tty0 c 4 0 && \
  mv \
 	/init \
 	/kexec.sh \
